@@ -61,7 +61,10 @@ function userMessage(message) {
             text = response.output.text; // Only display the first response
             context = response.context; // Store the context for next round of questions
             console.log("Got response from Watson: ", JSON.stringify(response));
-           
+           	if (response.entities.entity === 'org_chart'){
+   				text += 	        		
+           	}
+           	
             for (var txt in text) {
                 displayMessage(text[txt], watson);
             }

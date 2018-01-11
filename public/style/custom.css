@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    background-image: url(../images/chatbg7.jpg);
+    background-image: url(../images/abreubot3.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -42,8 +42,8 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.22);
-    width: 310px;
-    height: 40px;
+    width: 500px;
+    height: 100px;
     border-top-left-radius: 4px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -226,4 +226,21 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 32px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
 }
